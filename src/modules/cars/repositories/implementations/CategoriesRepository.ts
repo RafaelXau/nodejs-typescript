@@ -5,7 +5,7 @@ import { Category } from "../../entities/Category";
 import {
   ICategoryRepository,
   ICreateCategoryDTO,
-} from "../ICategoriesRepositorys";
+} from "../ICategoriesRepository";
 
 class CategoriesRepository implements ICategoryRepository {
   private repository: Repository<Category>;
